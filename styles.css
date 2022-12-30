@@ -1,0 +1,294 @@
+.navbar-logo {
+    color: #ffff;
+    text-decoration: none
+}
+
+.navbar-logo:hover {
+    color: #ffff;
+}
+
+.navbar {
+    background: #31353c;
+}
+
+.nav-link {
+    color: #99999a
+}
+
+.nav-link:hover {
+    color: #ffff;
+}
+
+.tickets {
+    color: green;
+    ;
+}
+
+.tickets:hover {
+    color: rgb(47, 197, 47)
+}
+
+
+section {
+    justify-content: center;
+    padding-top: 1em;
+}
+
+p {
+    text-align: center;
+
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.card {
+    margin: 1em;
+}
+
+.card-text {
+    text-align: left;
+}
+
+
+.contenedorPortada {
+    text-align: right;
+    margin-bottom: 7em;
+    padding-left: 31em;
+}
+
+.descripcionPortada {
+    text-align: right;
+    font-size: medium;
+}
+
+.boton {
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 0.3em;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+.boton:hover {
+    color: black;
+    background-color: #ffff;
+}
+
+.botonTickets {
+    color: #ffff;
+    background-color: rgb(30, 134, 30);
+    border-radius: 0.3em;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    margin-left: 1em;
+    border: 1em rgb(31, 131, 31);
+    text-decoration: none;
+}
+
+.botonTickets:hover {
+    background-color: rgb(47, 197, 47);
+    text-decoration: none;
+    color: #ffff;
+}
+
+.card {
+    padding: 0;
+}
+
+#charlaIgnite {
+    border-bottom: dotted;
+}
+
+.formulario {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.botonEnviar {
+    background-color: #7ea638;
+    color: #ffff;
+    border-radius: 0.4em;
+    ;
+    font-size: 1.2em;
+    padding: 0.2em;
+}
+
+.botones{
+    background-color: #7ea638;
+    color: #ffff;
+    border-radius: 0.4em;
+    font-size: 1em;
+    padding: 0.2em;
+    
+}
+
+.botones:hover {
+    color: #ffff;
+    background-color: #91c539;
+}
+        
+
+.botonEnviar:hover {
+    color: #ffff;
+    background-color: #91c539;
+}
+
+#footer {
+    background-color: #20445c;
+    padding: 1em;
+    text-align: center;
+}
+
+.copyright {
+    color: #d0d0d0
+}
+
+.inputTickets{
+    width: 100%;
+    height:100%;
+    display:inline;
+    padding-inline: 3em;
+}
+
+
+.TotalAPagar{
+    background-color:#d0e4fc;
+    padding: 0.5em;
+    border-radius:0.2em;
+    margin-bottom: 2em;
+    color:#273646;
+}
+
+
+#btnAceptar{
+	border-radius: 0.4em;
+	cursor:pointer;
+	font-size:1em;
+	padding:0.5em 1em;
+	margin:1rem;
+	color:white;
+	transition:background-position .3s ease;
+	background: linear-gradient(to right,#7ea638  50%, green 50%) no-repeat left / 200%;
+}
+
+#btnAceptar:hover{
+	background-position: right;
+}
+
+
+#btnComprar{
+	border:none;
+	border-radius: 0.4em;
+	cursor:pointer;
+	font-size:1em;
+	padding:0.5em 1em;
+	margin:1rem;
+	color:white;
+	transition:background-position .3s ease;
+	background: linear-gradient(to right,#7ea638  50%, #26d618 50%) no-repeat left / 200%;
+}
+
+#btnComprar:hover{
+	background-position: right;
+	color:black;
+}
+
+#btnCancelarCompra{
+	border:none;
+	border-radius: 0.4em;
+	cursor:pointer;
+	font-size:1em;
+	padding:0.5em 1em;
+	margin:1rem;
+	color:white;
+	transition:background-position .3s ease;
+	background: linear-gradient(to right,#7ea638  50%, #bf1010 50%) no-repeat left / 200%;
+}
+	
+#btnCancelarCompra:hover{
+	background-position: right;
+}
+
+
+	
+/* RESPONSIVE CELULAR */
+@media only screen and (max-width:600px) {
+
+.inputDatos{
+    width: 10em;
+    margin-bottom: 1em;
+    padding-right: 3em;
+}
+
+#correo{
+    width: 15em;
+}
+
+.inputTickets{
+    width: 16em;
+    margin:0 0.5em 0 0;
+    padding: 0;
+}
+
+.btnTickets{
+    margin-bottom:2em;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+#categoria{
+	width:50%;
+}
+#btnBorrar{
+	width:50%;
+	margin-right:2em;
+}
+
+#btnResumen{
+   width:50%;
+    
+}
+
+#btnAceptar{
+	margin:0;
+
+}
+
+#cantidad{
+	margin:0;
+	width: 71%;
+}
+
+.categoria{
+	margin:0;
+	width: 71%;
+}
+.form-control{
+    padding: 0.5em;
+}
+
+#btnComprar, #btnCancelarCompra{
+	padding:0.5em 0.7em;
+	font-size:0.8em;
+	margin:0;
+
+}
+
+.totalAPagar{
+	margin: 2em 0em 0em 0em;
+	padding: 1em;
+}
+}
+
